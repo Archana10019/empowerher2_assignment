@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Sample HTML Page</title>     
+        <meta charset="UTF-8">
+        <title>ques_2</title>
+<style>
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+  
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}           
+.Outer {
+  width: 500px;
+  padding: 40px;
+  background-color: rgb(133, 65, 133);
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid #b599d6;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}   
+
+.Inner {
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(199, 137, 199);
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #a881a8;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;   
+}
+h2 {
+    color: rgb(11, 11, 11);
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+p {
+    color: #141315;
+    font-size: 20px;
+    margin: 0;
+}
+</style>
+
+
+
+    </head>
+    <body>
+
+        <div class="box">
+           <div class="Outer">
+            <p><h2 >heigheat& Average CTC</h2></p>
+
+
+
+                <div class="Inner">
+                    <p>Average CTC</p>
+                    <br>
+                    <p>1.6LPA>
+                <div class="Inner">
+                     <p>Highest CTC</p>
+                     <br>
+                     <p>25 LPA</p>
+               <div class="Inner">
+                   <p>Expected Increase in Salary Ptential</p>
+                   <br>
+                   <p>60%</p>
+               </div>
+
+            </div>
+        </div>
+    </body>
+    <html>
+
