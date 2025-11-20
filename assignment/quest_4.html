@@ -9,14 +9,14 @@
             font-family: Arial, sans-serif;
             background-color: #f9f9f9;
             margin: 0;
-            padding: 20px;
+            padding: 30px;
         }
         .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
+             display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
         }
         .card {
             background-color: #fff;
@@ -38,20 +38,28 @@
         .card h2 {
             margin-top: 10px;
             margin-bottom: 5px;
+            font-size: 24px;
         }
         .card p {
             font-size: 18px;
             color: #555;
             margin: 0 0 15px grey;
-            margin: 0;
+          margin-bottom: 12px;
         }
         .logo {
-            width: 120px;       
+            width: 70px;  
+            height: auto;     
    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
+          display: flex;
+          margin: 15px auto 15px;
+          object-fit: contain;
+        }
+
+        .logo img{
+            object-fit: contain;
+            width: 100%;
+            height: auto;
+            justify-content: center;
         }
         .card:hover {
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
