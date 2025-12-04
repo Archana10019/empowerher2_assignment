@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<style>
+  body{
+    font-family: arial,sans-serif;
+    background:#f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+
+  }
+
+
+
+    h1{
+        color: black;
+        text-align: center;
+        margin-bottom:20px ;
+    }
+   button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: rgb(79, 134, 237);
+    color: white;
+    border:none;
+    border-radius:10px ;
+   }
+   button:hover{
+    background-color: rgb(79, 134, 237) ;
+   }
+
+</style>
+<body>
+    
+    <h1 > Welcome to Book Management app</h1>
+
+ 
+    <button  onclick="togoadmin()"> Go to Amin page</button>
+
+</body>
+<script>
+
+function togoadmin(){
+    window.location.href=`admin.html`;
+
+
+}
+
+</script>
+</html>
