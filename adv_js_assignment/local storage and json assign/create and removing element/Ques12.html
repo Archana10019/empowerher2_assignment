@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+       
+        text-align: center;
+        background-color: rgb(135, 169, 169);
+        margin: 0;
+    }
+
+    h2{
+       font-weight: 300px;
+       
+    }
+
+    div{
+        
+        justify-content: center;
+        width: 300px;
+        height: auto;
+        text-align: center;
+    }
+    button{
+        background-color: rgb(130, 130, 143);
+       font-weight: 500px;
+
+    }
+    
+
+</style>
+<body>
+    <div>
+    <h2>Creating and Removing the Element</h2>
+    <button id="add" > Add Paragraph</button>
+    <button id="remove"> Remove the Paragraph</button>
+    </div>
+
+    <div id="container"></div>
+</body>
+
+
+<script>
+    const container=document.getElementById("container");
+    const add =document.getElementById("add");
+    const remove=document.getElementById("remove");
+ //add
+ 
+ add.onclick =function(){
+    const para =document.createElement("p");
+    para.textContent="This is a new paragraph.";
+    container.appendChild(para);
+ };
+
+ //remove 
+ remove.onclick=function (){
+    const lastpara=container.lastElementChild;
+    if(lastpara){
+        container.removeChild(lastpara)
+    }
+    
+ };
+
+
+
+
+</script>
+</html>
